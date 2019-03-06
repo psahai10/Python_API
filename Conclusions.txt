@@ -1,0 +1,16 @@
+Observable trends from randomly selected cities based on lat, lon for: a) temp, b) humidity, c) cloudiness and d) wind speed:
+
+a) Not surprisingly, there is a clear relationship between between Latitude and max temperature. The closer you are to latitute zero,
+the higher the temperature gets. In addition, the cities with positive Latitude (Northern Hemisphere) their weather starts decreasing,
+since our current date (early March), we are currently transition from winter to spring. By contrast cities with negative latitude
+(Southern Hemisphere) are transitining from summer to winter. In addition, the more you move out from the equator, the lower the 
+temperature gets. 
+
+b) For humidity plot, there seems to be no clear relationship between Latitute and % humidity. However, it seems that most cities (~80%),
+independent of Latitude, experience humidity between 40% to 100% and ~98% of cities have humidity beween 20% and 100%. In addition,
+there seems to be no clear relationship between Latitude and % cloudiness. But most of the data (~65%) seems to cluster between no cloudiness
+and and more than 75% cloudinees. The remaining % of cloudiness from cities falls in between.
+
+c) Wind speed by citiies doesn't seem to be any significant correlation by Latitude. Nevertheless, there seems to appear a peak in wind speed at
+in certain cities close to latitude 60 and -60, which seems to fit with wind speed and the effect earth rotation has on them (ie. easterlies and 
+westerlies)
